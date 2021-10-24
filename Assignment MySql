@@ -8,7 +8,7 @@ Q3. Count the number of Salesperson belonging to Newyork.
 Ans3. SELECT COUNT(*) FROM salespeople WHERE city = 'NewYork';
 
 Q4.Display the number of Salespeople belonging to London and belonging to Paris.
-Ans4. SELECT Sname FROM salespeople WHERE city= 'London' AND city= 'Paris')
+Ans4. SELECT * FROM salespeople WHERE city= 'London' AND city= 'Paris')
 
 Q5.Display the number of orders taken by each Salesperson and their date of orders
 Ans5. SELECT salespeople.Sname, orders.Odate FROM salespeople INNER JOIN orders ON salespeople.Snum = orders.Snum;
